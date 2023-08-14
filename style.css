@@ -12,6 +12,11 @@ height: 5rem;
 display: flex;
 justify-content: center;
 align-items: center;
+
+position: fixed;
+width: 100%;
+top: 0;
+
 }
 
 header a{
@@ -36,3 +41,12 @@ header a:hover {
 
 }
 
+section{
+    border: 1px solid black;
+    height: calc(100vh - 5rem);
+}
+
+#Listas{
+    margin-top: 5rem;
+
+}
